@@ -15,7 +15,7 @@ As a result of working through this lab, you will
 - be better able to articulate the Azure DevOps CI/CD experience for Java applications.
 - be better able to understand the basics of Spring Boot framework and MySQL database.
 
-## Exercise 0 - Check the environment settings on the lab machine
+## Exercise 0 - Familiar with the lab environment
 
 In this exercise, we will check the environment settings on the lab machine to make sure it is ready for the lab. After completing the exercise, you will know the basic environment settings which are required for the Java development on Windows.
 
@@ -182,7 +182,7 @@ To debug the Java application locally in VS Code, we need to configure the `laun
     
     ![Configure debug](https://readylab.z19.web.core.windows.net/images/ex1/debug-configure.png)
 
-1. Open `HelloController.json` and set a breakpoint on the code, `return "Hello, Spring Boot!";`. 
+1. Open `HelloController.java` and set a breakpoint on the code, `return "Hello, Spring Boot!";`. 
 1. Press `F5` or click **Start Debugging** button on the Debug Panel. 
 1. When the application is running, open a browser and visit `http://localhost:8080`. The breakpoint should be hit, as shown in the screenshot below. Press `F5` or click **Continue** and you will see the page in the browser. 
     
@@ -217,7 +217,7 @@ To clone the project, follow the steps below.
     |spring.datasource.password |${SPRING_DATASOURCE_PASSWORD} |P@ssw0rd1 |
     |server.port |${PORT} |80 |
     
-1. Now we can test if it works. In VS Code, press `F5` to launch the web app. When it is launched successfully, open a browser and explore `http://localhost:8080`. You should see the home page of the todo web app.
+1. Now we can test if it works. In VS Code, press `F5` to launch the web app. When it is launched successfully, open a browser and explore `http://localhost`. You should see the home page of the todo web app.
 1. Let's create a new todo item in the web app. In the browser window, click **Todo** on the left navigation, and then click **New Task**. 
 1. In the pop up, input a name for the task, for example, `A new task`, and click **OK**. A new task should be created accordingly. 
 1. To verify if the data has been persisted in the database, you can open the MySQL Workbench, connect to the MySQL instance, and run the following query. You should see 1 record in the database. 
