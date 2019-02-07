@@ -54,7 +54,7 @@ On the lab machine, MySQL is installed and a local instance is configured. We wi
 In this lab, we will use Azure Database for MySQL as our database engine. There is an Azure Database for MySQL instance in your Azure subscription. We need to prepare the database on it for our code. 
 
 1. Open browser and explore [https://portal.azure.com](https://portal.azure.com), sign in with the Azure account provided. 
-1. Click **Resource groups > *[the name of the resource group]***. You will see 3 resources which look similar to the following screenshot.
+1. Click **Resource groups > *[the name of the resource group]***. You will see 4 resources which look similar to the following screenshot.
 
     ![Azure Resources](https://readylab.z19.web.core.windows.net/images/ex0/azure-resources.png)
 
